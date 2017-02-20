@@ -26,15 +26,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSApplication.shared().terminate(self);
     }
     
-    @IBAction func pressSettings(_ sender: Any) {
-        let popover = NSPopover()
-        popover.contentViewController = SettingsViewController(nibName: "SettingsViewController", bundle: nil)
-        if let button = statusItem.button {
-            popover.show(relativeTo: button.bounds, of: button, preferredEdge: NSRectEdge.minY)
-        }
-        
-    }
-
+    
     func printQuote() {
         
     }

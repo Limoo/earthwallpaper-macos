@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D100A7671E4BBA6100F7CD2B /* StatusBarButtonImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D100A7661E4BBA6100F7CD2B /* StatusBarButtonImage@2x.png */; };
-		D100A7691E4BE62A00F7CD2B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D100A7681E4BE62A00F7CD2B /* SettingsViewController.swift */; };
 		D139BE5B1E464D4100D40ACA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D139BE5A1E464D4100D40ACA /* Alamofire.framework */; };
 		D14F023E1E4645540045ABD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F023D1E4645540045ABD1 /* AppDelegate.swift */; };
-		D14F02401E4645540045ABD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F023F1E4645540045ABD1 /* ViewController.swift */; };
+		D14F02401E4645540045ABD1 /* EarthPornWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F023F1E4645540045ABD1 /* EarthPornWallpaper.swift */; };
 		D14F02421E4645540045ABD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14F02411E4645540045ABD1 /* Assets.xcassets */; };
 		D14F02451E4645540045ABD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14F02431E4645540045ABD1 /* Main.storyboard */; };
 		F2AFBF14DF3ED73F1CA9F18B /* Pods_EarthPornWallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85A27B71FB847D0ED841D2 /* Pods_EarthPornWallpaper.framework */; };
@@ -20,12 +18,10 @@
 /* Begin PBXFileReference section */
 		2DD3A6855D550A3D055AA163 /* Pods-EarthPornWallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthPornWallpaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarthPornWallpaper/Pods-EarthPornWallpaper.release.xcconfig"; sourceTree = "<group>"; };
 		395623B29F226DA81D428786 /* Pods-EarthPornWallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthPornWallpaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarthPornWallpaper/Pods-EarthPornWallpaper.debug.xcconfig"; sourceTree = "<group>"; };
-		D100A7661E4BBA6100F7CD2B /* StatusBarButtonImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StatusBarButtonImage@2x.png"; path = "../../../Downloads/StatusBarButtonImage@2x.png"; sourceTree = "<group>"; };
-		D100A7681E4BE62A00F7CD2B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D139BE5A1E464D4100D40ACA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/EarthPornWallpaper-cqqqnpgrqwvibdewxqzwuzhawxcr/Build/Products/Debug/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		D14F023A1E4645540045ABD1 /* EarthPornWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthPornWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14F023D1E4645540045ABD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D14F023F1E4645540045ABD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D14F023F1E4645540045ABD1 /* EarthPornWallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthPornWallpaper.swift; sourceTree = "<group>"; };
 		D14F02411E4645540045ABD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14F02441E4645540045ABD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14F02461E4645540045ABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,12 +81,10 @@
 			isa = PBXGroup;
 			children = (
 				D14F023D1E4645540045ABD1 /* AppDelegate.swift */,
-				D14F023F1E4645540045ABD1 /* ViewController.swift */,
+				D14F023F1E4645540045ABD1 /* EarthPornWallpaper.swift */,
 				D14F02411E4645540045ABD1 /* Assets.xcassets */,
 				D14F02431E4645540045ABD1 /* Main.storyboard */,
 				D14F02461E4645540045ABD1 /* Info.plist */,
-				D100A7661E4BBA6100F7CD2B /* StatusBarButtonImage@2x.png */,
-				D100A7681E4BE62A00F7CD2B /* SettingsViewController.swift */,
 			);
 			path = EarthPornWallpaper;
 			sourceTree = "<group>";
@@ -159,7 +153,6 @@
 			files = (
 				D14F02421E4645540045ABD1 /* Assets.xcassets in Resources */,
 				D14F02451E4645540045ABD1 /* Main.storyboard in Resources */,
-				D100A7671E4BBA6100F7CD2B /* StatusBarButtonImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14F02401E4645540045ABD1 /* ViewController.swift in Sources */,
+				D14F02401E4645540045ABD1 /* EarthPornWallpaper.swift in Sources */,
 				D14F023E1E4645540045ABD1 /* AppDelegate.swift in Sources */,
-				D100A7691E4BE62A00F7CD2B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

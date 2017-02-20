@@ -26,7 +26,7 @@ class EarthPornWallpaper {
                     let JSON = result as! NSDictionary
                     
                     //ugly af
-                    imageUrl = (((((JSON["data"] as! NSDictionary)["children"]) as! NSArray)[1] as! NSDictionary)["data"] as! NSDictionary)["url"] as! String
+                    imageUrl = (((((JSON["data"] as! NSDictionary)["children"]) as! NSArray)[0] as! NSDictionary)["data"] as! NSDictionary)["url"] as! String
                     
                     if(imageUrl.range(of: ".png") == nil && imageUrl.range(of: ".jpg") == nil){
                         imageUrl += ".png"
