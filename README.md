@@ -1,9 +1,11 @@
 # EarthPornWallpaper
 
-brew install cocoapods
+$ brew install cocoapods
+$ cd EarthPornWallper
+$ pod install
 
-cd EarthPornWallper
-
-pod install
-
-open Xcode -> Product -> Archive -> Export -> ap Mac App
+1. Open EarthPornWallpaper.xcworkspace with Xcode 
+2. Select Product in the MenuBar
+3. Press Archive
+4. Press Export
+5. Export as a macOS App
