@@ -1,7 +1,7 @@
 # EarthPornWallpaper
 
     $ brew install cocoapods
-    $ cd EarthPornWallper
+    $ cd EarthPornWallpaper
     $ pod install
 
 1. Open EarthPornWallpaper.xcworkspace with Xcode 
