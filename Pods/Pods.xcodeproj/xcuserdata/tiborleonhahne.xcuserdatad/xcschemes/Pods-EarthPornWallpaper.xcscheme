@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "868A040530807D98CD58F168D3FD1CE1"
+               BlueprintIdentifier = "D11F3AC5F63CDFD8DE7CC4E9B79CCACC"
                BuildableName = "Pods_EarthPornWallpaper.framework"
                BlueprintName = "Pods-EarthPornWallpaper"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "868A040530807D98CD58F168D3FD1CE1"
+            BlueprintIdentifier = "D11F3AC5F63CDFD8DE7CC4E9B79CCACC"
             BuildableName = "Pods_EarthPornWallpaper.framework"
             BlueprintName = "Pods-EarthPornWallpaper"
             ReferencedContainer = "container:Pods.xcodeproj">

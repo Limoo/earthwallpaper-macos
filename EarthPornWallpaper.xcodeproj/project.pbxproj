@@ -12,6 +12,13 @@
 		D14F02401E4645540045ABD1 /* EarthPornWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F023F1E4645540045ABD1 /* EarthPornWallpaper.swift */; };
 		D14F02421E4645540045ABD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14F02411E4645540045ABD1 /* Assets.xcassets */; };
 		D14F02451E4645540045ABD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14F02431E4645540045ABD1 /* Main.storyboard */; };
+		D1EC46231E7741920007D74A /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC46221E7741920007D74A /* Child.swift */; };
+		D1EC46251E7743650007D74A /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC46241E7743650007D74A /* Preview.swift */; };
+		D1EC46271E7744320007D74A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC46261E7744320007D74A /* Image.swift */; };
+		D1EC46291E7744A80007D74A /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC46281E7744A80007D74A /* Source.swift */; };
+		D1EC462B1E77470B0007D74A /* RedditData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC462A1E77470B0007D74A /* RedditData.swift */; };
+		D1EC462D1E774C2B0007D74A /* RedditDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC462C1E774C2B0007D74A /* RedditDto.swift */; };
+		D1EC462F1E7753100007D74A /* ChildData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC462E1E7753100007D74A /* ChildData.swift */; };
 		F2AFBF14DF3ED73F1CA9F18B /* Pods_EarthPornWallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD85A27B71FB847D0ED841D2 /* Pods_EarthPornWallpaper.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +32,13 @@
 		D14F02411E4645540045ABD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D14F02441E4645540045ABD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D14F02461E4645540045ABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EC46221E7741920007D74A /* Child.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		D1EC46241E7743650007D74A /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		D1EC46261E7744320007D74A /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		D1EC46281E7744A80007D74A /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		D1EC462A1E77470B0007D74A /* RedditData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditData.swift; sourceTree = "<group>"; };
+		D1EC462C1E774C2B0007D74A /* RedditDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RedditDto.swift; path = Assets.xcassets/RedditDto.swift; sourceTree = "<group>"; };
+		D1EC462E1E7753100007D74A /* ChildData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildData.swift; sourceTree = "<group>"; };
 		FD85A27B71FB847D0ED841D2 /* Pods_EarthPornWallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthPornWallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +94,7 @@
 		D14F023C1E4645540045ABD1 /* EarthPornWallpaper */ = {
 			isa = PBXGroup;
 			children = (
+				D1EC46211E77416F0007D74A /* Models */,
 				D14F023D1E4645540045ABD1 /* AppDelegate.swift */,
 				D14F023F1E4645540045ABD1 /* EarthPornWallpaper.swift */,
 				D14F02411E4645540045ABD1 /* Assets.xcassets */,
@@ -87,6 +102,20 @@
 				D14F02461E4645540045ABD1 /* Info.plist */,
 			);
 			path = EarthPornWallpaper;
+			sourceTree = "<group>";
+		};
+		D1EC46211E77416F0007D74A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1EC462C1E774C2B0007D74A /* RedditDto.swift */,
+				D1EC462A1E77470B0007D74A /* RedditData.swift */,
+				D1EC46221E7741920007D74A /* Child.swift */,
+				D1EC462E1E7753100007D74A /* ChildData.swift */,
+				D1EC46241E7743650007D74A /* Preview.swift */,
+				D1EC46261E7744320007D74A /* Image.swift */,
+				D1EC46281E7744A80007D74A /* Source.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +240,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EC462B1E77470B0007D74A /* RedditData.swift in Sources */,
 				D14F02401E4645540045ABD1 /* EarthPornWallpaper.swift in Sources */,
 				D14F023E1E4645540045ABD1 /* AppDelegate.swift in Sources */,
+				D1EC46291E7744A80007D74A /* Source.swift in Sources */,
+				D1EC462F1E7753100007D74A /* ChildData.swift in Sources */,
+				D1EC46251E7743650007D74A /* Preview.swift in Sources */,
+				D1EC462D1E774C2B0007D74A /* RedditDto.swift in Sources */,
+				D1EC46231E7741920007D74A /* Child.swift in Sources */,
+				D1EC46271E7744320007D74A /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

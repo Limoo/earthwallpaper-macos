@@ -26,14 +26,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSApplication.shared().terminate(self);
     }
     
-    
-    func printQuote() {
-        
-    }
-    
-    func test(){
-    
-    }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
