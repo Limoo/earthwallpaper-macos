@@ -14,7 +14,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var menuBar: NSMenu!
     
-     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         statusItem.title = "EPW"
@@ -23,7 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         EarthPornWallpaper.start(min: 60);
     }
     @IBAction func pressQuit(_ sender: Any) {
-        NSApplication.shared().terminate(self);
+        NSApplication.shared.terminate(self);
     }
     
 

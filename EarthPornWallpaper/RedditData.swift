@@ -7,16 +7,7 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class RedditData: Mappable {
+class RedditData: Codable {
     var children: [Child]?
-    
-    required init?(map: Map) {
-        
-    }
-    
-    func mapping(map: Map) {
-        children    <- map["children"]
-    }
 }

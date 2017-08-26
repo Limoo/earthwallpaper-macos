@@ -7,21 +7,9 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class Source: Mappable {
+class Source: Codable {
     var url: String?
     var width: Int?
     var height: Int?
-    required init?(map: Map) {
-        
-    }
-    
-    // Mappable
-    func mapping(map: Map) {
-        url    <- map["url"]
-        width  <- map["width"]
-        height <- map["height"]
-    }
-
 }

@@ -7,17 +7,7 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class RedditDto: Mappable {
+class RedditDto: Codable {
     var data: RedditData?
-    init(){}
-    required init?(map: Map) {
-        
-    }
-    
-    // Mappable
-    func mapping(map: Map) {
-        data    <- map["data"]
-    }
 }

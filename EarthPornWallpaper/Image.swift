@@ -7,18 +7,7 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class Image: Mappable {
+class Image : Codable {
     var source: Source?
-    
-    required init?(map: Map) {
-        
-    }
-    
-    // Mappable
-    func mapping(map: Map) {
-        source    <- map["source"]
-    }
-
 }

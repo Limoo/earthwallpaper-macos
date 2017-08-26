@@ -7,19 +7,8 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class Child: Mappable {
+class Child: Codable {
     var kind: String?
     var data: ChildData?
-    
-    required init?(map: Map) {
-        
-    }
-    
-    // Mappable
-    func mapping(map: Map) {
-        kind    <- map["kind"]
-        data     <- map["data"]
-    }
 }

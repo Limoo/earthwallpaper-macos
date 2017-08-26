@@ -7,20 +7,9 @@
 //
 
 import Cocoa
-import ObjectMapper
 
-class ChildData: Mappable {
+class ChildData : Codable {
     var stickied: Bool?
     var preview: Preview?
     
-    required init?(map: Map) {
-        
-    }
-    
-    // Mappable
-    func mapping(map: Map) {
-        stickied <- map["stickied"]
-        preview    <- map["preview"]
-    }
-
 }
