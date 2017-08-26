@@ -11,10 +11,11 @@ import Alamofire
 
 class EarthPornWallpaper {
     
-    var minutes:Int? = 0
     static let folder = "Earth/"
     static let RedditURL = URL(string: "https://www.reddit.com/r/EarthPorn/.json?limit=5")!
     var timer:Timer? = nil
+    
+    static let shared = EarthPornWallpaper()
     
     @objc static func setBackground(){
         self.requestRedditObject(completion: {( redditObject) in
@@ -114,10 +115,10 @@ class EarthPornWallpaper {
         }
     }
     
-    static func start(min:Int){
-        setBackground()
+    func start(min:Int){
+        EarthPornWallpaper.setBackground()
         let seconds = min * 60
-        let timer = Timer.scheduledTimer(timeInterval: TimeInterval(seconds), target: self, selector: #selector(setBackground), userInfo: nil, repeats: true)
+        self.timer = Timer.scheduledTimer(timeInterval: TimeInterval(seconds), target: self, selector: #selector(EarthPornWallpaper.setBackground), userInfo: nil, repeats: true)
     }
 
 }
