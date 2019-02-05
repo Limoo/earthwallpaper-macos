@@ -77,11 +77,11 @@ class EarthPornWallpaper {
     
     private static func extractImageUrlFrom(redditObject: RedditDto) -> URL? {
         var imageUrl:URL? = nil
-        
+        let screenFrame = NSScreen.main?.frame
         if let children = redditObject.data?.children {
             for child in children {
-                
-                if let sticky = child.data?.stickied, let urlString = child.data?.preview?.images?[0].source?.url {
+                let sourceImage = child.data?.preview?.images?[0].source
+                if let sticky = child.data?.stickied, let urlString = sourceImage?.url, sourceImage?.width ?? 0 >= Int(screenFrame?.width ?? 0) && sourceImage?.height ?? 0 >= Int(screenFrame?.height ?? 0) {
                     if !sticky, let url = URL(string: FixImageUrlString(urlString: urlString)) {
                         imageUrl = url
                         break
